@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    top: 0px;
+    z-index: 1;
+}
+
+header img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: seashell;
+}
+
+#mission {
+    background-image: url('./img-mission-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 29px;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+
+.mission-text {
+    background-color: black;
+    color: seashell;
+    margin: auto;
+    width: 100%;
+}
+
+#featured-tea h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#featured-tea h4 {
+    margin-bottom: 10px;
+}
+
+#featured-tea {
+    margin-bottom: 80px;
+}
+
+.tea-imgs {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.small img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.small h4 {
+    margin-top: 10px;
+}
+
+section h2 {
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+#locations {
+    background-image: url("./img-locations-background.jpeg");
+    background-repeat: none;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tiles {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    height: auto;
+    align-items: center;
+}
+
+.tile-location {
+    background-color: black;
+    color: seashell;
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+}
+
+
+.tile-location h3 {
+    margin: 15px;
+}
+
+.tile-location p{
+    font-size: 15px;
+    margin: 50px;
+}
+
+aside {
+    height: 200px; 
+}
+
+aside h2 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+aside h5 {
+    padding-bottom: 40px;
+}
+
+footer {
+    text-align: left;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
